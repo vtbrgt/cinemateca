@@ -12,11 +12,13 @@
     <header>
       <label for="search">Pesquise um filme aqui</label>
       <input
-        type="search"
+        type="text"
         id="search"
         name="search"
         placeholder="Ex: Mad Max: Fury Road"
       />
+
+      <button class="btn">Pesquisar</button>
     </header>
     <main>
       <section class="results">
@@ -24,23 +26,24 @@
           <h4 class="title">Titulo</h4>
           <img class="cover" src="" alt="" />
           <p class="description">Descricao</p>
-          <p class="status">Status: </p>
+          <p class="status">Status:</p>
         </div>
         <div class="card">
           <h4 class="title">Titulo</h4>
           <img class="cover" src="" alt="" />
           <p class="description">Descricao</p>
-          <p class="status">Status: </p>
+          <p class="status">Status:</p>
         </div>
         <div class="card">
           <h4 class="title">Titulo</h4>
           <img class="cover" src="" alt="" />
           <p class="description">Descricao</p>
-          <p class="status">Status: </p>
+          <p class="status">Status:</p>
         </div>
       </section>
     </main>
 
-    <script src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </body>
 </html>
