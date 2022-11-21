@@ -1,5 +1,6 @@
 # Cinemateca
 ![badge-status](https://img.shields.io/badge/status-EM%20DESENVOLVIMENTO-red?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/vtbrgt/cinemateca?style=for-the-badge)
 
 # Descrição do projeto
 App onde o usuário possa pesquisar por filmes e séries e esses dados serão requisitados externamente fazendo uso da TMDB API. Projeto criado com o intuito de práticar requisições à API's
